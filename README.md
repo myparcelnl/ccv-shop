@@ -1,2 +1,2 @@
-# ccv-shop
- Instruction manual plugin CCV Shop
+# BiedMeer/CCV shop-handleiding
+Voor de handleiding ga naar ....

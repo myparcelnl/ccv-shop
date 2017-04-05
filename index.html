@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8"/>
+    <title>CCV shop MyParcel Gebruikershandleiding</title>
+    <meta name="description" content="Installatie- gebruikershandleiding voor de Magento MyParcel plug-in">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="shortcut icon" href="https://backoffice.myparcel.nl/images/favicon/favicon.ico">
+    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css"/>
+    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/github-light.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/auto_menu.js"></script>
+</head>
+<body>
+<section class="page-header">
+    <p>
+        <img alt="Logo MyParcel" src="media/logo_myparcel.png"/>
+        <img height="180" alt="logo CCV-Shop" src="media/logo_CCV_Shop.png"/></p>
+    <h1 class="project-name">
+        Gebruikershandleiding
+    </h1>
+    <h2 class="project-tagline">
+        MyParcel  CCV shop extensie
+    </h2>
+    <a target="_blank" class="btn" href="https://github.com/myparcelnl/CCV-Shop">GitHub</a>
+</section>
+<section class="main-content">
+    <h1>Inleiding</h1>
+    <p> CCV shop heeft een koppeling gerealiseerd met MyParcel. MyParcel is een oplossing voor web winkeliers die hun verzendproces gemakkelijker en voordeliger willen organiseren. De voornaamste voordelen zijn voordelige tarieven, uitstekende service en de betrouwbare levering van PostNL.</p>
+    <p> Met de koppeling die CCV shop heeft ontwikkeld kun je heel eenvoudig met één druk op de knop in het onderhoudspanel jouw zendingen aanmelden bij MyParcel en vervolgens direct een etiket afdrukken zonder dat je daarvoor in MyParcel bent ingelogd.<br>
+        Ook wordt automatisch de Track & Trace code toegevoegd aan een order, zodat je d.m.v. een status update de klant op de hoogte kunt brengen van de Track & Trace code.</p>
+    <p> Dit bespaart je dus veel tijd omdat je jouw gegevens niet nogmaals hoeft in te voeren of dat je moet werken met import bestanden.</p>
+    <p> Deze handleiding beschrijft hoe je de koppeling instelt en vervolgens ook gebruikt.</p>
+
+    <h1>Inhoud</h1>
+    <div class="menu"></div>
+    <div>
+
+        <h1 id="1">1 Instellen van de koppeling</h1>
+
+        <p>
+            Het koppelen met MyParcel is erg eenvoudig. Uiteraard dien je eerst een account te hebben bij MyParcel. Deze is aan te vragen op hun website, <a target="_blank" href="http://www.myparcel.nl">http://www.myparcel.nl</a>.<br><br>
+
+            Wanneer je een account bij MyParcel hebt, dien je ook een API key aan te vragen. Deze is aan te vragen bij je accountmanager van MyParcel. <br><br>
+
+            Als dit geregeld is, kun je in het onderhoudspanel bij CCV shop dit account instellen. Dit kun je doen onder:<br><span class="nice">“Mijn webshop”->”Instellingen”->”Verzendkosten & logistiek”->”MyParcel verzendservice”.</span><br><br>
+
+            Je vindt hier de volgende instellingen die je moet invullen om de koppeling te laten werken:<br><br>
+
+            <b>MyParcel gebruikersnaam</b><br>Vul hier de gebruikersnaam in waarmee je inlogt op de MyParcel.nl website<br><br>
+            <b>MyParcel API key</b><br>Vul hier de API key in die je ontvangen heeft van jouw accountmanager bij MyParcel<br><br>
+            <b>Handtekening voor ontvangst</b><br>Geef hier aan of je een handtekening wenst voor ontvangst van het pakket. Wanneer je dit wenst, zal de ontvanger eerst een handtekening moeten zetten bij de bezorger voordat hij/zij het pakket in ontvangst mag nemen. (let op: MyParcel kan hier extra kosten voor rekening, vraag naar de tarieven bij MyParcel)<br><br>
+            <b>Retour bij geen gehoor</b><br>Geef hier aan of het pakket retour gestuurd moet worden als er niemand thuis is. (let op: MyParcel kan hier extra kosten voor rekening, vraag naar de tarieven bij MyParcel)<br><br>
+            <b>Alléén huisadres</b><br>Wanneer de pakketten die je verstuurd niet bij de buren bezorgd mogen worden, kun je het beste deze instelling op Ja zetten. Hierdoor zal het pakket niet afgeleverd worden bij de buren. (let op: MyParcel kan hier extra kosten voor rekening, vraag naar de tarieven bij MyParcel)<br><br>
+            <b>Verzekerd verzenden</b><br>MyParcel kent meerdere verzekeringen voor het verzenden van jouw pakket. Uiteraard is het mogelijk om niet het pakket te verzekeren. Daarnaast kun je de volledige order waarde verzekeren. Ook kun je kiezen voor een vast verzeker bedrag. Mocht er een betere staffel zijn waarin het order totaal past, dan zal automatisch er een gunstiger verzekerd bedrag mee gezonden worden. <br><br>
+
+            Bij het verzekerd verzenden zijn extra kosten verbonden bij MyParcel. Je kunt het beste contact opnemen met MyParcel voor meer informatie.<br><br>
+            CCV shop is niet aansprakelijk voor verkeerde instellingen/verzendingen m.b.t. verzekering en andere mogelijkheden. Kijk altijd voor het verzenden van het pakket of het juiste etiket afgedrukt is met bijbehorende verzekering.<br><br>
+            Gebruik maken van de koppeling<br><br>
+            Gefeliciteerd! Je hebt nu een koppeling gemaakt met MyParcel. Je kunt nu gebruik maken van de koppeling.<br><br>
+            Er zijn twee manieren om een order te verzenden naar MyParcel en een etiket af te drukken. Dit kan bij een individuele order en d.m.v. groepsacties.
+
+        </p>
+
+        <h2 id="1_1">1.1 Order versturen bij een individuele order</h2>
+            <p>
+                Zoals je waarschijnlijk weet staan alle orders in het orderbeheer <span class="nice">(“Mijn klanten”->”Orderbeheer”)</span> en beheer je daar alle binnenkomende orders.<br><br>
+                Als je in het orderbeheer een order aanklikt, krijg je een nieuw venster met alle informatie omtrent deze order. Als je vervolgens naar tabblad “Koppelingen” gaat zie je daar een kopje “Order exporteren naar MyParcel”.<br><br>
+                <img alt="order versturen" src="media/order_versturen_koppeling1.png">
+
+            </p>
+            <p>
+                Wanneer je de order nog niet verzonden hebt naar MyParcel heb je daar één optie staan “Meld de order aan bij MyParcel en download etiket”. Als je daar op drukt zal “onder water” de order verzonden worden naar MyParcel en zal er een verzending aangemaakt worden bij MyParcel. Vervolgens als dit succesvol is, ontvang je als download het etiket wat je kunt afdrukken.<br><br>
+
+                Daarnaast wordt automatisch de Track & Trace code ingevuld bij de order zodat je de klant op de hoogte kunt brengen.<br><br>
+
+                Wanneer je bij een order al eens de order verstuurd hebt naar MyParcel zie je twee mogelijkheden: “Meld de order opnieuw aan en download een nieuw etiket” en “Download etiket voor verzending”.<br><br>
+                <img alt="download etiket" src="media/order_versturen_download_etiket.png">
+            </p>
+            <p>
+                De eerste mogelijkheid, “Meld de order opnieuw aan en download een nieuw etiket”, is bedoeld om de order opnieuw aan te melden als je bijvoorbeeld de verzending bij MyParcel verwijderd hebt of dat er bijvoorbeeld wijzigingen zijn in het adres van de order. Let hierbij wel op dat de oude verzending niet automatisch verwijderd wordt bij MyParcel maar dat je dit handmatig bij MyParcel moet doen.<br><br>
+
+                Met de tweede optie, “Download etiket voor verzending”, kun je eenvoudig nogmaals het etiket afdrukken. Alle data bij MyParcel blijft dan hetzelfde, je ontvangt dan alleen het etiket wat je kunt afdrukken op de doos.
+            </p>
+
+
+        <h2 id="1_2">1.2 Order versturen d.m.v. groepsacties</h2>
+            <p>
+                Wanneer je meerdere orders tegelijkertijd wilt verzenden naar MyParcel en/of meerdere etiketten tegelijkertijd wilt afdrukken, dan kun je gebruik maken van een groepsactie.<br><br>
+                In het orderbeheer kun je voor elke order een vinkje aanzetten. Je kunt meerdere orders aanvinken die je wilt verzenden naar MyParcel. Vervolgens kies je bovenin bij het pulldown menu “Groepsactie selecteren” de optie “MyParcel etiketten (maakt verzending aan indien nodig)”. Vervolgens zullen alle orders die nog niet naar MyParcel zijn verzonden automatisch verzonden worden. Daarnaast zal er voor elke order een etiket aangemaakt worden en deze kun je vervolgens downloaden.<br>
+                <img alt="groepsacties" src="media/order_versturen_groepsacties.png">
+            </p>
+            <p>
+                Alléén de orders die dus nog niet verzonden zijn naar MyParcel zullen aangemaakt worden. Ze worden niet opnieuw aangemaakt zodat je geen dubbele verzendingen krijgt in MyParcel en in één keer meerdere orders kunt afdrukken zonder je druk te hoeven maken over de techniek er achter.<br><br>
+                Wil je toch een zending opnieuw versturen naar MyParcel dan kun je dit doen bij een individuele order. Voor meer informatie, zie de paragraaf hierboven “Order versturen bij een Individuele order”.
+            </p>
+
+
+        <h2 id="1_3">1.3 Terug zien van statussen</h2>
+            <p>In het orderbeheer kun je bij elke order zien of de order verzonden is naar MyParcel of niet. Daarnaast kun je zien of dit gelukt is.</p>
+            <img alt="Status terugzien" src="media/status_terugzien.png">
+            <p>
+                Wanneer er onderaan de order geen geel pakketje te zien is, dan is de order nog niet verzonden. Als er een geel pakketje met een groene pijl naar rechts staan, dan is de order succesvol verstuurd. Wanneer er een geel pakketje te zien is met een rood stop teken, dan is de order wel verstuurd, maar is deze niet geslaagd.<br><br>
+                Door middel van deze iconen heb je altijd overzicht van welke orders wel en niet verzonden zijn. Ook bij een individuele order, onder tabblad “koppelingen”, wordt de historie bij gehouden van de acties die naar MyParcel gedaan zijn.
+            </p>
+
+
+
+        <footer class="site-footer">
+            <p>
+                <span class="site-footer-owner">MyParcel</span>
+            </p>
+            <p>
+                <span class="site-footer-credits">
+                    <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp<br>
+                    <strong>Telefoon </strong>023 30 30 315&nbsp;
+                    <strong>E-mail</strong> &nbsp;info@myparcel.nl<br>
+                    <strong>Website </strong><a target="_blank" href="https://www.myparcel.nl">www.myparcel.nl</a>&nbsp;
+                    <strong>IBAN </strong>NL48ABNA0447850539&nbsp;
+                    <strong>KvK </strong>Amsterdam 34 09 97 58 <br>
+                    <strong>BTW-nr. </strong>NL8045.33.258.B01
+                </span>
+            </p>
+        </footer>
+</section>
+</body>
+</html>
