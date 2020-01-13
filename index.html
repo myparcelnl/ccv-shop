@@ -1,157 +1,177 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8"/>
-    <title>CCV shop MyParcel Gebruikershandleiding</title>
-    <meta name="description" content="Installatie- gebruikershandleiding voor de CCV shop MyParcel plug-in">
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta charset="UTF-8" />
+    <title>Handleiding</title>
+    <meta name="description" content="The documentation to make a connection with MyParcel">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" href="https://backoffice.myparcel.nl/images/favicon/favicon.ico">
-    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css"/>
-    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="css/github-light.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css" />
+    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/github-light.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/auto_menu.js"></script>
 </head>
 <body>
-<section class="page-header">
-    <p>
-        <img alt="Logo MyParcel" src="media/logo_myparcel.png"/>
-        <img height="180" alt="logo CCV-Shop" src="media/logo_CCV_Shop.png"/></p>
-    <h1 class="project-name">
-        Gebruikershandleiding
-    </h1>
-    <h2 class="project-tagline">
-        MyParcel  CCV shop extensie
-    </h2>
-    <a target="_blank" class="btn" href="https://github.com/myparcelnl/CCV-Shop">GitHub</a>
-</section>
-<section class="main-content">
-    <h1>Inleiding</h1>
-    <p> CCV shop heeft een koppeling gerealiseerd met MyParcel. MyParcel is een oplossing voor web winkeliers die hun verzendproces gemakkelijker en voordeliger willen organiseren. De voornaamste voordelen zijn voordelige tarieven, uitstekende service en de betrouwbare levering van PostNL.</p>
-    <p> Met de koppeling die CCV shop heeft ontwikkeld kun je heel eenvoudig met één druk op de knop in het onderhoudspanel jouw zendingen aanmelden bij MyParcel en vervolgens direct een etiket afdrukken zonder dat je daarvoor in MyParcel bent ingelogd.<br>
-        Ook wordt automatisch de Track & Trace code toegevoegd aan een order, zodat je d.m.v. een status update de klant op de hoogte kunt brengen van de Track & Trace code.</p>
-    <p> Dit bespaart je dus veel tijd omdat je jouw gegevens niet nogmaals hoeft in te voeren of dat je moet werken met import bestanden.</p>
-    <p> Deze handleiding beschrijft hoe je de koppeling instelt en vervolgens ook gebruikt.</p>
-
-    <h1>Inhoud</h1>
-    <div class="menu"></div>
-    <div>
-<h1 id="1">1 Instellen van de koppeling</h1>
-    <p>De koppeling instellen is erg eenvoudig, uiteraard heb je wel een MyParcel account nodig. Mocht je nog geen account hebben kun je deze via <a target="_blank" href="http://www.myparcel.nl">www.myparcel.nl</a> aanmaken.</p>
-    
-     
-    <p>Als dit geregeld is, kun je in het onderhoudspanel bij CCV shop dit account instellen. Dit kun je doen via:
-        <br>
-        <span class="nice">Mijn webshop->Instellingen->Verzendkosten & logistiek->MyParcel verzendservice</span><br><br>
-       <img src="media/ccvhsop1.png">
-        
-            <br>
-            <br>
-            <b>MyParcel gebruikersnaam</b>
-            <br>Vul hier de gebruikersnaam in die je bij <a href="https://www.myparcel.nl">www.myparcel.nl</a> gebruikt.
-            <br>
-            <br>
-
-            <b>MyParcel API key</b>
-            <br>De API-key kun je vinden in jouw MyParcel account. Ga naar <span class="nice">Instellingen -> Algemeen</span>
-            <br>
-            <br>
-            <b>Handtekening voor ontvangst</b>
-            <br>Geef hier aan of je een handtekening wenst voor ontvangst van het pakket. Wanneer je dit wenst, zal de ontvanger eerst een handtekening moeten zetten bij de bezorger voordat hij/zij het pakket in ontvangst mag nemen.
-            <br>
-            <br>
-            <b>Retour bij geen gehoor</b>
-            <br>Geef hier aan of het pakket retour gestuurd moet worden als er niemand thuis is. 
-            <br>
-            <br>
-            <b>Alléén huisadres</b>
-            <br>Wanneer de pakketten die je verstuurd niet bij de buren bezorgd mogen worden, kun je het beste deze instelling op Ja zetten. Hierdoor zal het pakket niet afgeleverd worden bij de buren.
-            <br>
-            <br>
-            <b>Verzekerd verzenden</b>
-            <br>MyParcel kent meerdere verzekeringen voor het verzenden van jouw pakket. Uiteraard is het mogelijk om niet het pakket te verzekeren. Daarnaast kun je de volledige order waarde verzekeren. Ook kun je kiezen voor een vast verzeker bedrag. Mocht er een betere staffel zijn waarin het order totaal past, dan zal automatisch er een gunstiger verzekerd bedrag mee gezonden worden. 
-           <br>
-           <br>
-            <b>Gefeliciteerd!</b> 
-            Je hebt nu een koppeling gemaakt met MyParcel. Je kunt nu gebruik maken van de koppeling.
-            <br>
-            <br>
-           
-        </p>
-
-    <h1 id="2">2 Orders versturen</h1>
-        <h2 id="2_1">2.1 individueel orders doorzetten</h2>
-        <p>Vanuit jouw besteloverzicht kun je orders doorzetten naar myparcel. <br>
-            <br>
-            <span class="nice"> Mijn klanten -> Orderbeheer</span><br>
-            <br>
-            Kies hier de order die jij wilt doorzetten en klik deze open. Er verschijnt een nieuw scherm met de ordergegevens, in dit venster kun je kiezen voor <span class="nice">Koppelingen</span>
-
-            Vervolgens zie je het scherm met de optie om de order te exporteren naar MyParcel.
-            <img src="media/ccvshop2.png">
-            <p style="font-size:90%;"><i>Wanneer je de order nog niet verzonden hebt naar MyParcel heb je daar één optie staan:<span class="nice">Meld de order aan bij MyParcel en download etiket</span>. Als je daar op klikt, wordt de order verzonden worden naar MyParcel en wordt er een verzending aangemaakt bij MyParcel. Vervolgens als dit succesvol is, ontvang je als download het etiket wat je kunt afdrukken. Daarnaast wordt automatisch de <span class="nice">Track & Trace code</span> ingevuld bij de order zodat je de klant op de hoogte kunt brengen.</i></p>
-        </p>
-
-           <p>Je kunt hierbij kiezen of het een <span class="nice">Pakket</span>, <span class="nice">Brievenbuspakket</span>, <span class="nice">Pakket, extra groot</span> of een <span class="nice">Ongefrankeerd label</span> moet zijn.<br>
-            <br>
-            Bij een <span class="nice">Pakket</span> en <span class="nice">Pakket extra groot</span> heb je ook nog opties als <span class="nice">Handtekening voor ontvangst</span>, <span class="nice">Retour bij geen gehoor</span>, <span class="nice">Alleen huisadres</span> en <span class="nice">Verzekerd verzenden</span>.
-
-            Indien je er voor kiest om het label op A4 te printen, kun je ook kiezen op welke plek het label afgedrukt dient te worden.
-        </p>
-
-        <p>Wanneer je bij een order al eens de order verstuurd hebt naar MyParcel zie je twee mogelijkheden: <span class="nice"> Meld de order opnieuw aan en download een nieuw etiket</span>  en <span class="nice">Download etiket voor verzending</span>.</p>
-        <p>De eerste mogelijkheid is bedoeld om de order opnieuw aan te melden als je bijvoorbeeld de verzending bij MyParcel verwijderd hebt of dat er bijvoorbeeld wijzigingen zijn in het adres van de order.</p>
-        <p>Met de tweede optie kun je eenvoudig nogmaals het etiket afdrukken. Alle data bij MyParcel blijft dan hetzelfde, je ontvangt dan alleen het etiket wat je kunt afdrukken op de doos.</p>
-
-    <h2 id="2_2">2.2 Order versturen d.m.v. groepsacties</h2>
-        <p>Wanneer je meerdere orders tegelijkertijd wilt verzenden naar MyParcel en/of meerdere etiketten tegelijkertijd wilt afdrukken, dan kun je gebruik maken van een groepsactie. <br>
-        <br>
-        In het orderbeheer kun je voor elke order een vinkje aanzetten. Je kunt meerdere orders aanvinken die je wilt verzenden naar MyParcel. Vervolgens kies je bovenin bij het pulldown menu <span class="nice"> Groepsactie selecteren</span> de optie <span class="nice"> MyParcel etiketten (maakt verzending aan indien nodig)</span>. Vervolgens worden alle orders die nog niet naar MyParcel zijn verzonden automatisch geëxporteerd. Daarnaast wordt voor elke order een etiket gemaakt en kun je deze vervolgens downloaden.</p>
-
-        <img src="media/ccvshop3.png">
-
-        <p>Alléén de orders die dus nog niet verzonden zijn naar MyParcel zullen aangemaakt worden. Ze worden niet opnieuw aangemaakt zodat je geen dubbele verzendingen krijgt in MyParcel en in één keer meerdere orders kunt afdrukken zonder je druk te hoeven maken over de techniek er achter.</p>
-
-    <h2 id="2_3">2.3 Terugzien van statussen</h2>
-        <p>In het orderbeheer kun je bij elke order zien of de order verzonden is naar MyParcel of niet. Daarnaast kun je zien of dit gelukt is.</p>
-
-        <img alt="Status terugzien" src="media/status_terugzien.png">
-        <p>Wanneer er onderaan de order geen geel pakketje te zien is, dan is de order nog niet verzonden. Als er een geel pakketje met een groene pijl naar rechts staan, dan is de order succesvol verstuurd. Wanneer er een geel pakketje te zien is met een rood stop teken, dan is de order wel verstuurd, maar is deze niet geslaagd.</p> 
-        <br>
-        <p>Door middel van deze iconen heb je altijd overzicht van welke orders wel en niet verzonden zijn. Ook bij een individuele order,onder tabblad <span class="nice"> koppelingen</span>, wordt de historie bij gehouden van de acties die naar MyParcel gedaan zijn.</p> 
-
-    <h1 id="3">3. PostNL checkout integratie in MyParcel</h1> 
-        <p>De MyParcel plugin kan ook gebruikt worden in combinatie met de PostNL Checkout. Jouw klanten kunnen wanneer ze willen een <span class="nice"> ander afleveradres</span>,<span class="nice"> ander tijdstip</span> of een <span class="nice">PostNL afhaallocatie</span> kiezen tijdens het bestellen. Bij het genereren van het label houdt MyParcel hier rekening mee en wordt er een aangepast label gegenereerd.</p>
-
-    <h2 id="3_1">3.1 Installatie</h2> 
-        <p>PostNL Checkout is een app die je kunt vinden in de CCV ShopApp Store onder de categorie <span class="nice">Verzendingen</span>.</p>
-        <img src="media/ccvshop4.png">
-    <p><b>Er is geen PostNL account nodig als je hier gebruik van wilt maken.</b> Je hoeft enkel de leveringsmogelijkheden te activeren. MyParcel ondersteunt geen <span class="nice"> Zondagbezorging</span> en <span class="nice"> Dezelfde dag bezorgd</span>.</p>
-        <br>
-
-        <img src="media/ccvshop5.png">
-
-    <h2 id="3_2">3.2 Checkout</h2>
-        <p>CCVshop heeft een uitgebreide handleiding geschreven voor het instellen van de PostNL checkout, deze kun je <a href="media/20170120_postnlcheckout.pdf">hier</a> vinden.</p>
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="menu col-xs-4 col-lg-3">
+            <nav class="navbar nav nav-pills nav-stacked">
+                <div class="menu-items">
+                </div>
+            </nav>
+        </div>
+        <section class="page-header col-xs-8 col-xs-offset-4 col-lg-9 col-lg-offset-3">
+            <img height="185" alt="" src="media/logo_myparcel.png">
+            <h1 class="project-name">
+                Handleiding Webshopsoftware-plugin
+            </h1>
+            <br />
+            <a target="_blank" class="btn" href="https://google.nl">Link 1</a>
+            <a target="_blank" class="btn" href="https://google.nl">Link 2</a>
+        </section>
+        <section class="main-content col-xs-8 col-xs-offset-4 col-lg-7 col-lg-offset-4">
+            <h1>Inleiding</h1>
+            <p>
+                Schrijf hier de inleiding voor de plugin: getest op standaard omgeving / getest op versie X / plugins van derden
+            </p>
+            <div class="box">
+                <p>
+                    Plugins van derden die we ondersteunen
+                </p>
+                <ul>
+                    <li><a href="https://google.nl" target="_blank">Voorbeeld 1</a></li>
+                    <li><a href="https://google.nl" target="_blank">Voorbeeld 2</a></li>
+                    <li><a href="https://google.nl" target="_blank">Voorbeeld 3</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    Eventueel een afsluiter van de inleiding
+                </p>
+            </div>
+            <div style="margin-top:10px">
+                <h1 id="1">1. Installatie</h1>
+                <h2 id="1_A">1.1 Nieuwe installatie</h2>
+                <p>
+                    De plugin kun je vinden in de App Store van CCV-shop door in de zoekbalk te zoeken naar 'MyParcel'. Als je ook 'ochtend- en avondlevering' en 'Ophalen bij een PostNL-locatie' wilt aanbieden, zal je ook de plugin met de naam 'PostNL Checkout' nodig hebben. Deze is ook te vinden in de App Store.
+                </p>
+                <h2 id="1_B">1.2 Updaten bestaande installatie</h2>
+                <p>
+                    De plugin zal automatisch worden geupdatet. 
+                </p>
+                <h2 id="1_C">1.3 Veelgestelde vragen over de installatie</h2>
+                <p>
+                    Zet hier de veel gestelde vragen omtrent de installatie
+                </p>
+                <h1 id="2">2. Configuratie</h1>
+                <h2 id="2_A">2.1 Pagina 1</h2>
+                <p>
+                    Om de plugin te configureren, ga je naar 'Mijn webshop' > 'Instellingen' > 'Verzendkosten en logistiek' > 'MyParcel verzendservice'. Je ziet dat je allereerst een API key moet invullen. Deze kun je vinden in de backoffice van MyParcel. Wanneer je ingelogd bent, klik je rechts bovenin op 'het poppetje-icoon' > 'Shop-instellingen' > 'shop-naam.nl'. Wanneer je op de knop 'Genereer API Key' klikt en daarna op 'Ja', wordt jouw API key gegenereerd. Kopieer de API Key en ga terug naar je CCV-shop backoffice en plak de API-key in het daarvoor bestemde veld.
+                </p>
+                <p>
+                    Vervolgens kies je het pakkettype uit dat jij het meeste zal versturen. Je kunt er hier ook voor kiezen om bij elke zending een standaard bezorgoptie aan te bieden, zoals een handtekening voor ontvangst of verzekerd verzenden. Je klant kan dit niet uit zetten. Vervolgens kun je nog aangeven van welk soort printer je gebruik maakt, een standaard A4-printer of een labelprinter (A6). Vergeet niet je instellingen op te slaan door op 'Toepassen' te klikken.
+                </p>
+                <p>
+                    Om 'ochtend- en avondlevering' en 'Ophalen bij een PostNL-locatie' aan te bieden, zal je een deel van de PostNl Checkout plugin moeten gebruiken. Deze kun je vinden door naar 'Mijn webshop' > 'Instellingen' > 'Bestelproces &amp; voorraad' > 'PostNL Checkout' te gaan. Zet vervolgens de eerste optie 'PostNL Checkout ingeschakeld' aan. Scroll dan een stuk door naar beneden, er hoeft geen gebruikersnaam, wachtwoord en Checkout Webshop ID te worden ingevuld.
+                </p>
+                <p>
+                    De verwerkingstijd kun je in te stellen door aan te geven hoelang je nodig hebt om een bestelling klaar te zetten voor een klant. Als je dit dezelfde dag nog kunt versturen, vul je de optie 'zelfde dag' in. Je kunt daarna kiezen of er wordt rekening gehouden met de voorraad bij het tonen van de checkout. Hierna kun je enkele instellingen overslaan en doorgaan naar ochtendlevering.
+                </p>
+                <p>
+                    Als je ochtend- en avondlevering wilt aanbieden, kun je deze een stukje verder aanzetten en hier een toeslag voor invullen. De cut-off tijd is de tijd waarop klanten kunnen bestellen, zodat het dezelfde dag nog wordt verzonden. Vergeet hierna niet op 'Toepassen' te klikken om je instellingen op te slaan.
+                </p>
+                <p>
+                    Hoe maak je een label aan + (hoe exporteer je zendingen, downloaden van een label etc)
+                    <br>
+                    Om een label aan te maken, ga je naar 'Mijn klanten' > 'Orderbeheer'. Selecteer vervolgens een order en klik op 'Groepsactie selecteren' en klik op 'MyParcel etiketten'. Er opent een nieuw scherm waar je kunt kiezen voor de soort zending en hier kun je eventueel nog een verzekering toevoegen, het labelformaat wijzigen en een positie kiezen voor het label(A4). Als alles juist staat ingevuld, klik je op 'Toepassen' en je label wordt gedownload. 
+                    <br>
+                    Je kan ook klikken op 'Bekijk order' en daar klikken op 'Koppelingen'. Hier kun je bezorgopties toevoegen voordat je op 'Meld de order opnieuw aan en download een nieuw etiket'.
+                </p>
+                <h2 id="2_B">2.2 Pagina 2</h2>
+                <p>
+                    Beschrijf alle opties op pagina 2.
+                </p>
+                <h2 id="2_E">2.5 Veelgestelde vragen over de configuratie</h2>
+                <p>
+                    Zet hier de veel gestelde vragen omtrent de configuratie.
+                </p>
+                <h1 id="3">3. Gebruik plugin</h1>
+                <h2 id="3_A">3.1 Aanmaken van één verzendlabel</h2>
+                <p>
+                    Als je het adres van de zending nog wilt aanpassen, kun je dit doen door op 'Bekijk order' te klikken achteraan de order. Bij het tabje 'Klantgegevens' kun je hier het adres wijzigen. Je kunt vervolgens bij het tabje 'Koppelingen' ook nog extra bezorgopties toevoegen. Klik nadat je tevreden bent met de instellingen op 'Meld de order opnieuw aan en download een nieuw etiket'. Er zal een label worden gedownload.
+                </p>
+                <h2 id="3_B">3.2 Aanmaken meerdere verzendlabels</h2>
+                <p>
+                    Om meerdere labels tegelijk aan te maken, selecteer je in het orderbeheer-overzicht meerdere zendingen en klik je op 'Groepsactie selecteren' en vervolgens op 'MyParcel etiketten'. Er opent een nieuw scherm waar je kunt kiezen voor de soort zending en hier kun je eventueel nog een verzekering toevoegen, het labelformaat wijzigen en een positie kiezen voor het label(A4). Als alles juist staat ingevuld, klik je op 'Toepassen' en je label wordt gedownload. 
+                </p>
+                <h2 id="3_C">3.3 Aanpassen van een enkele zending</h2>
+                <p>
+                    Beschrijf hier hoe je pakket- en verzendopties aanpast.
+                </p>
+                <h2 id="3_D">3.4 Checkout</h2>
+                <p>
+                    Beschrijf hier hoe de consument de checkout gebruikt.
+                </p>
+                <h2 id="3_E">3.5 Veelgestelde vragen over het gebruik van de plugin</h2>
+                <p>
+                    <b>‘Ik heb de PostNL checkout geactiveerd, maar nu wordt er om een gebruikersnaam, wachtwoord en ID gevraagd.’</b>
+                    <br>
+                    CCV-shop heeft de PostNL-plugin compatible gemaakt met MyParcel. Ze hebben de instellingen die belangrijk voor de PostNL-koppeling zijn dan ook precies hetzelfde gelaten. De MyParcel-klanten mogen deze gegeven gewoon overslaan.
+                </p>
+                <p>
+                    <b>‘Ik heb de PostNL checkout geactiveerd, maar ik wil niet dat hier verschillende data in te zien zijn.’</b>
+                    <br>
+                    Het is niet mogelijk om deze leverdata weg te halen. CCV-shop heeft aangegeven dat dit is gedaan omdat je als consument aan moet kunnen geven op welke dag je een ochtend- of avondlevering wil. Het uitzetten van deze bezorgopties maakt geen verschil.
+                </p>
+                <p>
+                    <b>‘Een zending kan niet worden geëxporteerd!’</b>
+                    <br>
+                    Over het algemeen zal dit vooral veroorzaakt worden door een foutief adres (of te veel karakters in bijvoorbeeld het veld ‘Toevoeging’. Als dit niet het geval is, altijd vragen om een foutmelding. Dit kan ook al veel verklaren.
+                </p>
+                <footer class="site-footer">
+                    <p>
+                        <span class="site-footer-owner">MyParcel</span>
+                    </p>
+                    <p>
+                        <span class="site-footer-credits">
+                            <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp<br />
+                            <strong>Telefoon </strong>023 30 30 315&nbsp;
+                            <strong>E-mail</strong> &nbsp;info@myparcel.nl<br />
+                            <strong>Website </strong><a href="https://www.myparcel.nl">www.myparcel.nl</a>&nbsp;
+                            <strong>IBAN </strong>NL48ABNA0447850539&nbsp;
+                            <strong>KvK </strong>Amsterdam 34 09 97 58 <br />
+                            <strong>BTW-nr. </strong>NL8045.33.258.B01
+                        </span>
+                        <br />
+                        &nbsp;
+                    </p>
+                </footer>
+            </div>
+        </section>
     </div>
-        <footer class="site-footer">
-            <p>
-                <span class="site-footer-owner">MyParcel</span>
-            </p>
-            <p>
-                <span class="site-footer-credits">
-                    <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp<br>
-                    <strong>Telefoon </strong>023 30 30 315&nbsp;
-                    <strong>E-mail</strong><a href="mailto:info@myparcel.nl" target="_top"> &nbsp;info@myparcel.nl</a><br>
-                    <strong>Website </strong><a target="_blank" href="https://www.myparcel.nl">www.myparcel.nl</a>&nbsp;
-                    <strong>IBAN </strong>NL48ABNA0447850539&nbsp;
-                    <strong>KvK </strong>Amsterdam 34 09 97 58 <br>
-                    <strong>BTW-nr. </strong>NL8045.33.258.B01
-                </span>
-            </p>
-        </footer>
-</section>
+</div>
+<script>
+    // Set postman button attributes in one place
+    postman_buttons = document.getElementsByClassName('postman-run-button');
+
+    for (i = 0; i < postman_buttons.length; i++) {
+        postman_buttons[i].setAttribute('data-postman-action', 'collection/import');
+        postman_buttons[i].setAttribute('data-postman-var-1', '065786285c2e5ed75509');
+        postman_buttons[i].setAttribute('data-postman-param', 'env%5BMyParcel%20public%5D=W3siZW5hYmxlZCI6dHJ1ZSwia2V5IjoiYXBpX2tleSIsInZhbHVlIjoiIn0seyJrZXkiOiJVc2VyLUFnZW50IiwidmFsdWUiOiJ7e1VzZXItQWdlbnR9fSIsImRlc2NyaXB0aW9uIjoiIiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJhdXRoX3Rva2VuIiwidmFsdWUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImVuYWJsZWQiOnRydWV9XQ==');
+    }
+
+    (function (p,o,s,t,m,a,n) {
+        !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+        !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+            (n = o.createElement("script")),
+                (n.id = s+t), (n.async = 1), (n.src = m), n
+        ));
+    }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+</script>
+
 </body>
 </html>
